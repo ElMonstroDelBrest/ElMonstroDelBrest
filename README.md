@@ -1,6 +1,6 @@
 # ⚙️ George-Daniel Gherasim 
 
-**Machine Learning Systems Engineer | Full-Stack Builder**
+**Machine Learning Systems Architect | AI Infrastructure Builder**
 
 Building the bridge between fundamental AI research and high-performance production systems. My core focus is on pushing the boundaries of hardware efficiency (TPU/GPU) for novel architectures, and industrializing software delivery.
 
