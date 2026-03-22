@@ -6,7 +6,6 @@ Building the bridge between fundamental AI research and high-performance product
 
 ### 🔬 Current Focus
 *   **[ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI):** Architecting a General Time-Series Foundation Model. Fusing Mamba-2 (SSM), JEPA, and Continuous Flow Matching (OT-CFM) to model chaotic dynamical systems. 
-    *   *Infra:* Orchestrating **768 TPU v5p** via Google TPU Research Cloud (TRC). Pure JAX, GSPMD sharding, and float32 accumulated bf16 kernels.
 
 ### 🛠️ Tech Stack & Arsenal
 *   **AI / Compute:** JAX, Flax, Optax, PyTorch, XLA Compiler Optimization, TPU Pod Topology.
