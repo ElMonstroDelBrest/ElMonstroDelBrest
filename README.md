@@ -1,22 +1,28 @@
-# ⚙️ George-Daniel Gherasim 
+# George-Daniel Gherasim
 
-**Machine Learning Systems Architect | AI Infrastructure Builder**
-
-Building the bridge between fundamental AI research and high-performance production systems. My core focus is on pushing the boundaries of hardware efficiency (TPU/GPU) for novel architectures, and industrializing software delivery.
-
-### 🔬 Current Focus
-*   **[ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI):** Architecting a General Time-Series Foundation Model. Fusing Mamba-2 (SSM), JEPA, and Continuous Flow Matching (OT-CFM) to model chaotic dynamical systems. 
-
-### 🛠️ Tech Stack & Arsenal
-*   **AI / Compute:** JAX, Flax, Optax, PyTorch, XLA Compiler Optimization, TPU Pod Topology.
-*   **Backend / Systems:** Python, C, Bash, IPC, Rust (Exploring).
-*   **Frontend / Full-Stack:** TypeScript, Angular, React Native, Tailwind.
-*   **Infrastructure / Ops:** GCP, Docker, CI/CD, FinOps, Data Lakes (Grain/ArrayRecord).
-
-### 📈 Philosophy
-*   *"Optimize for insight per dollar, not for appearances."*
-*   Hardware-aware design beats raw compute throwing.
-*   The execution is the only metric that matters.
+**AI Infrastructure & Systems** — ENSTA Paris, 2nd year
 
 ---
-📫 **Contact:** [george-daniel.gherasim@ensta.fr](mailto:george-daniel.gherasim@ensta.fr) | 🔗 **ORCID:** [0009-0009-3026-844X](https://orcid.org/0009-0009-3026-844X)
+
+### What I'm building
+
+**[ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI)** — Time-series world model trained from scratch.
+
+- 38M-parameter Mamba-2 JEPA encoder, trained on 838M tokens across 8,969 financial assets
+- Full JAX/Flax pipeline: FSQ tokenizer → SSM encoder → OT-CFM stochastic predictor → TD-MPC2 RL agent
+- Auto-sharding on TPU v6e clusters (GSPMD, 2D mesh, XLA production flags)
+- Data lake: raw parquet → ArrayRecord on GCS, zero idle cost
+
+The core insight: JEPA (Joint Embedding Predictive Architecture) learns *structured latent representations* of relationships and context — not next-token prediction. Same philosophy as knowledge graphs for agents.
+
+---
+
+### Stack
+
+**AI/Compute:** JAX, Flax, Optax, PyTorch, XLA, TPU Pod topology  
+**Infra:** GCP, GCS, Grain/ArrayRecord, Docker, FinOps  
+**Systems:** Python, C, Bash  
+
+---
+
+📫 [george-daniel.gherasim@ensta.fr](mailto:george-daniel.gherasim@ensta.fr)
