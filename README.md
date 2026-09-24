@@ -19,6 +19,22 @@ I use AI coding assistants in my projects, including to write code
 in languages I don't yet master. The technologies present in my
 repositories don't necessarily reflect what I can use independently.
 
+### Models and harness
+
+I use the following OpenAI models through **Codex**:
+
+| Model | Focus |
+| --- | --- |
+| [GPT-6 Astra](https://developers.openai.com/api/docs/models/gpt-6-astra) | Complex reasoning and demanding development tasks. |
+| [GPT-6 Sol](https://developers.openai.com/api/docs/models/gpt-6-sol) | Coding and tasks involving multiple steps and tools. |
+| [GPT-6 Luna](https://developers.openai.com/api/docs/models/gpt-6-luna) | Focused tasks, with an emphasis on speed and efficiency. |
+
+The models provide reasoning and code generation.
+[Codex](https://developers.openai.com/blog/codex-as-a-platform) is the
+**agent harness**: the software that manages the task context and connects
+the selected model to tools for reading and editing files, running terminal
+commands, and working with Git.
+
 ## Projects
 
 - [ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI) —
