@@ -1,28 +1,21 @@
 # George-Daniel Gherasim
 
-**AI Infrastructure & Systems** — ENSTA Paris, 2nd year
+Third-year engineering student at ENSTA Bretagne, specializing in
+Digital Systems Design (CSN — Conception de systèmes numériques).
 
----
+This profile brings together my projects and experiments.
 
-### What I'm building
+## Working with AI
 
-**[ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI)** — Time-series world model trained from scratch.
+I use AI coding assistants in my projects, including to write code
+in languages I don't yet master. The technologies present in my
+repositories don't necessarily reflect what I can use independently.
 
-- 38M-parameter Mamba-2 JEPA encoder, trained on 838M tokens across 8,969 financial assets
-- Full JAX/Flax pipeline: FSQ tokenizer → SSM encoder → OT-CFM stochastic predictor → TD-MPC2 RL agent
-- Auto-sharding on TPU v6e clusters (GSPMD, 2D mesh, XLA production flags)
-- Data lake: raw parquet → ArrayRecord on GCS, zero idle cost
+## Projects
 
-The core insight: JEPA (Joint Embedding Predictive Architecture) learns *structured latent representations* of relationships and context — not next-token prediction. Same philosophy as knowledge graphs for agents.
+- [ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI) —
+  Experiments with machine learning for time series.
 
----
+## Contact
 
-### Stack
-
-**AI/Compute:** JAX, Flax, Optax, PyTorch, XLA, TPU Pod topology  
-**Infra:** GCP, GCS, Grain/ArrayRecord, Docker, FinOps  
-**Systems:** Python, C, Bash  
-
----
-
-📫 [george-daniel.gherasim@ensta.fr](mailto:george-daniel.gherasim@ensta.fr)
+[george-daniel.gherasim@ensta.fr](mailto:george-daniel.gherasim@ensta.fr)
