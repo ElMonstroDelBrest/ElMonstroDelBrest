@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="132" height="22" viewBox="0 0 132 22" role="img" aria-label="Code: AI-assisted">
+  <title>Code: AI-assisted</title>
+  <rect width="44" height="22" fill="#30363D" />
+  <rect x="44" width="88" height="22" fill="#8957e5" />
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana, 'DejaVu Sans', sans-serif" font-size="11">
+    <text x="22" y="15">Code</text>
+    <text x="88" y="15">AI-assisted</text>
+  </g>
+</svg>

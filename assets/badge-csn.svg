@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="22" viewBox="0 0 140 22" role="img" aria-label="CSN: Digital Systems">
+  <title>CSN: Digital Systems</title>
+  <rect width="38" height="22" fill="#30363D" />
+  <rect x="38" width="102" height="22" fill="#0e8a84" />
+  <g fill="#FFFFFF" text-anchor="middle" font-family="Verdana, 'DejaVu Sans', sans-serif" font-size="11">
+    <text x="19" y="15">CSN</text>
+    <text x="89" y="15">Digital Systems</text>
+  </g>
+</svg>

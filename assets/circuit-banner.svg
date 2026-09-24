@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">George-Daniel Gherasim — Digital Systems Design</title>
+  <desc id="description">A dark circuit board banner for a third-year ENSTA Bretagne student in the CSN track.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1117" />
+      <stop offset="1" stop-color="#10232C" />
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#28404D" />
+    </pattern>
+    <clipPath id="corners">
+      <rect width="1200" height="280" rx="16" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#corners)">
+    <rect width="1200" height="280" fill="url(#background)" />
+    <rect x="736" width="464" height="280" fill="url(#grid)" opacity=".65" />
+    <path d="M0 279H1200" stroke="#2A5260" />
+    <g stroke="#244A58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M762 0V40L814 92H884" />
+      <path d="M830 0V24L872 66H920V82" />
+      <path d="M1200 48H1104L1060 92H1028" />
+      <path d="M1200 96H1138L1110 124H1028" />
+      <path d="M1200 236H1100L1044 180H1028" />
+      <path d="M1200 268H1068L996 196" />
+      <path d="M920 196V216L856 280" />
+      <path d="M884 164H842L800 206H736" />
+      <path d="M884 124H818L776 82H716" />
+      <path d="M960 82V44H996L1040 0" />
+    </g>
+    <g stroke="#39C5BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1200 156H1116L1096 136H1028" />
+      <path d="M884 144H824L770 198H714" />
+      <path d="M940 196V228L988 276" />
+    </g>
+    <g fill="#10232C" stroke="#39C5BB" stroke-width="2">
+      <circle cx="714" cy="198" r="4" />
+      <circle cx="988" cy="276" r="4" />
+      <circle cx="1144" cy="156" r="4" />
+    </g>
+    <g fill="#10232C" stroke="#3F7083" stroke-width="2">
+      <circle cx="716" cy="82" r="3" />
+      <circle cx="736" cy="206" r="3" />
+      <circle cx="830" cy="24" r="3" />
+      <circle cx="1140" cy="96" r="3" />
+    </g>
+    <g stroke="#427483" stroke-width="2">
+      <path d="M904 70V82M924 70V82M944 70V82M964 70V82M984 70V82M1004 70V82" />
+      <path d="M904 196V208M924 196V208M944 196V208M964 196V208M984 196V208M1004 196V208" />
+      <path d="M872 100H884M872 120H884M872 140H884M872 160H884M872 180H884" />
+      <path d="M1028 100H1040M1028 120H1040M1028 140H1040M1028 160H1040M1028 180H1040" />
+    </g>
+    <rect x="884" y="82" width="144" height="114" rx="12" fill="#0D1720" stroke="#427483" stroke-width="2" />
+    <rect x="898" y="96" width="116" height="86" rx="5" fill="#11252F" stroke="#244A58" />
+    <circle cx="907" cy="105" r="2.5" fill="#39C5BB" />
+    <text x="956" y="146" text-anchor="middle" fill="#73DDD3" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" font-size="24" letter-spacing="4">CSN</text>
+    <text x="48" y="48" fill="#73DDD3" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" font-size="13" letter-spacing="2">ENSTA BRETAGNE / 3RD YEAR</text>
+    <text x="46" y="128" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif" font-size="44" font-weight="600">George-Daniel Gherasim</text>
+    <text x="48" y="170" fill="#ADBBCB" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" font-size="18">Digital Systems Design / CSN</text>
+    <path d="M48 230H78" stroke="#39C5BB" stroke-width="3" stroke-linecap="round" />
+    <text x="94" y="235" fill="#8C9EAF" font-family="ui-monospace, 'DejaVu Sans Mono', monospace" font-size="12" letter-spacing="2">PROJECTS / EXPERIMENTS</text>
+  </g>
+</svg>
