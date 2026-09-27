@@ -11,15 +11,37 @@
 Third-year engineering student at ENSTA Bretagne, specializing in
 Digital Systems Design (CSN — Conception de systèmes numériques).
 
-This profile brings together my projects and experiments.
+My projects sit between hardware and machine learning: models running
+on-device, side-channel analysis of cryptographic hardware, and
+self-supervised learning on time series.
+
+## Projects
+
+### Machine learning
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [**ChaosAI**](https://github.com/ElMonstroDelBrest/ChaosAI) | Self-supervised foundation model for chaotic time series (Mamba JEPA + flow matching). Shows that the standard out-of-sample protocol leaks, and how a flow-matching objective removes the gap. | JAX · Python |
+| [**SkinFusionNet**](https://github.com/ElMonstroDelBrest/SkinFusionNet) | Multimodal skin-lesion classifier combining CNN embeddings with ABCD descriptors, running on-device in an Android app. Research prototype with “Dunărea de Jos” University of Galați. | PyTorch · ONNX · Flutter |
+| [**Quantnuis**](https://github.com/ElMonstroDelBrest/Quantnuis-Web-Site) | Noisy-vehicle detection from audio with a cascaded pipeline (vehicle detection → noise level), served through a web platform. ENSTA Bretagne project. | TensorFlow · FastAPI · Angular · AWS |
+
+### Hardware and systems
+
+| Project | Description | Stack |
+| --- | --- | --- |
+| [**npuwhisper**](https://github.com/ElMonstroDelBrest/npuwhisper) | Local Whisper dictation for GNOME Wayland, running entirely on the Intel Core Ultra NPU. Shortcut, top-bar icon, text pasted into the focused app. | OpenVINO · Python · GNOME |
+| [**Secu_Comp**](https://github.com/ElMonstroDelBrest/Secu_Comp) | Electromagnetic side-channel attack (CPA) on an AES-128 FPGA implementation: all 16 key bytes recovered from 20,000 traces. | MATLAB |
 
 ## Working with AI
 
-I use AI coding assistants in my projects, including to write code
-in languages I don't yet master. The technologies present in my
-repositories don't necessarily reflect what I can use independently.
+I use AI coding assistants in my projects, including to write code in
+languages I don't yet master. The technologies in my repositories don't
+necessarily reflect what I can use independently.
 
-### Models and harness
+<details>
+<summary>Models and harness</summary>
+
+<br />
 
 I use the following OpenAI models through **Codex**:
 
@@ -35,10 +57,7 @@ The models provide reasoning and code generation.
 the selected model to tools for reading and editing files, running terminal
 commands, and working with Git.
 
-## Projects
-
-- [ChaosAI](https://github.com/ElMonstroDelBrest/ChaosAI) —
-  Experiments with machine learning for time series.
+</details>
 
 ## Contact
 
